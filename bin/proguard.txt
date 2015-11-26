@@ -1,0 +1,63 @@
+# view AndroidManifest.xml #generated:20
+-keep class com.riviam.secpdf.ChoosePDFActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.riviam.secpdf.MuPDFActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.riviam.secpdf.OutlineActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class com.riviam.secpdf.PrintDialogActivity { <init>(...); }
+
+# onClick res/layout/buttons.xml #generated:351
+-keepclassmembers class * { *** OnAcceptButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:327
+-keepclassmembers class * { *** OnCancelAcceptButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:156
+-keepclassmembers class * { *** OnCancelAnnotButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:219
+-keepclassmembers class * { *** OnCancelDeleteButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:263
+-keepclassmembers class * { *** OnCancelMoreButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:105
+-keepclassmembers class * { *** OnCancelSearchButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:296
+-keepclassmembers class * { *** OnCopyTextButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:244
+-keepclassmembers class * { *** OnDeleteButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:309
+-keepclassmembers class * { *** OnEditAnnotButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:167
+-keepclassmembers class * { *** OnHighlightButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:200
+-keepclassmembers class * { *** OnInkButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:85
+-keepclassmembers class * { *** OnMoreButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:285
+-keepclassmembers class * { *** OnPrintButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:274
+-keepclassmembers class * { *** OnProofButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:33
+-keepclassmembers class * { *** OnSepsButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:189
+-keepclassmembers class * { *** OnStrikeOutButtonClick(...); }
+
+# onClick res/layout/buttons.xml #generated:178
+-keepclassmembers class * { *** OnUnderlineButtonClick(...); }
+
