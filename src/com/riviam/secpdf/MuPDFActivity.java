@@ -375,6 +375,7 @@ public class MuPDFActivity extends Activity implements FilePicker.FilePickerSupp
 		super.onCreate(savedInstanceState);
 
         //jb
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
         receiver = new ResponseReceiver();
 
 		mAlertBuilder = new AlertDialog.Builder(this);
